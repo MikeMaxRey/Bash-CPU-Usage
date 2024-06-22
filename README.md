@@ -2,7 +2,7 @@
 This script calculates the average CPU usage of Linux Machines in a 6sec interval. It repeatedly samples the current CPU usage and adds it to an array, then calculates the average and exits it when the user presses Ctrl+c.
 
 ## Usage
-- Make the script executable by running chmod +x average_cpu_usage.sh.
+- Make the script executable by running chmod +x cpuload_loop.sh.
 - Run the script using ./
 - Press Ctrl+c to calculate and print the average CPU usage before exiting.
 
